@@ -7,9 +7,9 @@ Code repository for curating a dataset of experimental PL wavelengths and predic
 
 Paper Here: [Machine-Learning Predictions of Photoluminescence in Molecules Exhibiting Thermally Activated Delayed Fluorescence with Implicit Experimental Validation](https://doi.org/10.1021/acs.jcim.6c00425).
 
-**Note:** Please refer to and install [ChemDataExtractorTADF](https://github.com/Dingyun-Huang/chemdataextractorTADF) if you want to rerun the dataset extraction for your own task.
+**NOTE**: Please refer to and install [ChemDataExtractorTADF](https://github.com/Dingyun-Huang/chemdataextractorTADF) and **CHECKOUT BRANCH `extract-pl`** if you want to rerun the dataset extraction for your own task.
 
-### Requirements
+### REQUIREMENTS
 
 Python **3.10–3.12** is recommended.
 
@@ -28,9 +28,9 @@ pip install -r requirements-model-training.txt
 
 This installs a CPU build that works everywhere. For GPU acceleration, edit the PyTorch/PyG URLs at the top of `requirements-model-training.txt` to match your CUDA version (see [pytorch.org](https://pytorch.org/get-started/locally/) and [PyG](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)).
 
-### Inference (HGNN)
+### INFERENCE (HGNN)
 
-Run predictions from a SMILES string using a saved model archive. You **must** run from `src/gnn` (same as training).
+Run predictions from a SMILES string using a saved model archive. You **MUST** run from `src/gnn` (same as training).
 
 ```bash
 cd src/gnn
@@ -45,9 +45,9 @@ Optional arguments:
 
 The script prints predicted photoluminescence in **eV** and **nm**. If the archive does not include normalization statistics (older state-dict-only checkpoints), they are recomputed from the training split.
 
-### Run training
+### RUN TRAINING
 
-You **must** run from `src/gnn` so relative paths resolve to `src/data_processing`:
+You **MUST** run from `src/gnn` so relative paths resolve to `src/data_processing`:
 
 ```bash
 cd src/gnn
@@ -63,7 +63,7 @@ Training behavior is controlled by **`src/gnn/gnn_config.yaml`**:
 - Checkpoints: set `save_model: true` and `save_path` to write a model archive (weights, config, and normalization stats).
 
 
-### Citation
+### CITATION
 
 Please use the following citation if you use any part of this codebase and/or the TadfPL dataset in your work.
 
@@ -82,7 +82,7 @@ Please use the following citation if you use any part of this codebase and/or th
 }
 ```
 
-### Acknowledgements
+### ACKNOWLEDGEMENT
 
 D.H. is thankful to the Cambridge Commonwealth, European and International Trust and the China Scholarship Council, for a Ph.D. scholarship. J.M.C. is grateful for funding from the EPSRC AI Hub, AIChemy (grant references EP/Y028775/1 and EP/Y028759/1). The authors thank the Argonne Leadership Computing Facility, which is a DOE Office of Science Facility, for use of its research resources, under contract no. DE-AC02-06CH11357.
 
