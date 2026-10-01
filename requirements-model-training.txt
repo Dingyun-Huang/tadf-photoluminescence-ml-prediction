@@ -11,11 +11,6 @@
 -f https://data.pyg.org/whl/torch-2.4.1+cpu.html
 
 torch==2.4.1
-pyg-lib
-torch-scatter
-torch-sparse
-torch-cluster
-torch-spline-conv
 torch-geometric==2.6.1
 rdkit==2025.9.1
 wandb==0.22.3
