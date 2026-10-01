@@ -13,6 +13,13 @@ Paper Here: [Machine-Learning Predictions of Photoluminescence in Molecules Exhi
 
 Python **3.10–3.12** is recommended.
 
+**Download and go to the directory of the repository**
+
+```bash
+git clone https://github.com/Dingyun-Huang/tadf-photoluminescence-ml-prediction.git
+cd tadf-photoluminescence-ml-prediction
+```
+
 **Create an environment**
 
 ```bash
