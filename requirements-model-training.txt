@@ -7,8 +7,8 @@
 # https://pytorch.org/get-started/locally/ and
 # https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 
-# --extra-index-url https://download.pytorch.org/whl/cpu
-# -f https://data.pyg.org/whl/torch-2.4.1+cpu.html
+--extra-index-url https://download.pytorch.org/whl/cpu
+-f https://data.pyg.org/whl/torch-2.4.1+cpu.html
 
 torch==2.4.1
 pyg-lib
