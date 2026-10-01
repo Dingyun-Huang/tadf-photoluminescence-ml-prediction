@@ -226,3 +226,9 @@ slurm-*.out
 
 # Backup files
 *.bak
+
+# archive
+model_archive/checkpoint.pt
+
+# processed data
+src/data_processing/tadf_pl/processed/
