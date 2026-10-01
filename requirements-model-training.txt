@@ -5,18 +5,12 @@
 #
 # For a GPU build, edit the two URLs below to match your CUDA version (see
 # https://pytorch.org/get-started/locally/ and
-# https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html),
-# and change torch==2.4.1+cpu to torch==2.4.1.
+# https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 
 --extra-index-url https://download.pytorch.org/whl/cpu
--f https://data.pyg.org/whl/torch-2.4.0+cpu.html
+-f https://data.pyg.org/whl/torch-2.4.1+cpu.html
 
-torch==2.4.1+cpu
-pyg-lib
-torch-scatter
-torch-sparse
-torch-cluster
-torch-spline-conv
+torch==2.4.1
 torch-geometric==2.6.1
 rdkit==2025.9.1
 wandb==0.22.3
