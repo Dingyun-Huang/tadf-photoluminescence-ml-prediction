@@ -1,5 +1,7 @@
 ![](./assets/demo_2x.gif)
 
+**Try it in Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dingyun-Huang/tadf-photoluminescence-ml-prediction/blob/feat/add-colab-for-new-user/notebooks/predict_photoluminescence.ipynb)
+
 **If you encounter problems running the code, please [open an issue](https://github.com/Dingyun-Huang/tadf-photoluminescence-prediction/issues).**
 ## TADF photoluminescence prediction
 
